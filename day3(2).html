@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // 문자열 입력 : prompt()
+        // 불 입력 : confirm()
+
+        // prompt
+        /*
+        prompt는 (페이지내용,입력창)순으로 입력을 한다
+        const a = prompt('아무말이나 입력','')
+        라고 입력을 하면 상수 a에 문자를 입력하면 들어간다
+        */
+
+        // confirm
+        /*
+        confirm는 확인과 취소 박스가 나오는데
+        확인을 누르면 true
+        취소를 누르면 false가 뜬다
+        */
+    //   const a = prompt('첫 번째 숫자를 입력해 주세요')
+    //   const b = prompt('두 번째 숫자를 입력해 주세요')
+
+     //  alert(`${a} + ${b} = ${a+b}`) 
+       //prompt는 문자열 자료형이기 때문에 10 + 20 으로 했을 경우 1020으로 뜬다
+       // 그렇기 때문에  a와b의 자료형을 숫자로 변경 해주면 된다 
+       // 이때 자료형 변환을 할 때 Number의 N은 꼭 대문자로 해야 한다 
+
+    //    let a = prompt('첫 번째 숫자를 입력해 주세요')
+    //    a = Number(a)
+    //    let b = prompt('두 번째 숫자를 입력해 주세요')
+    //    b = Number(b)
+    //    alert(`${a} + ${b} = ${a+b}`) 
+        let a = Number(prompt('첫 번째 숫자를 입력하세요'))
+        let b = Number(prompt('두 번째 숫자를 입력하세요'))
+        alert(`${a} + ${b} = ${a+b}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
